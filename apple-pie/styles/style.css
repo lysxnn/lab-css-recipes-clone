@@ -1,0 +1,38 @@
+h1 body html {
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+} 
+
+section {
+    margin: 100px;
+    padding: 0px;
+}
+.container {
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color:  white;
+    font-size: 60px;
+    max-width: 100%;
+    height: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#graphic {
+    margin-left: 35%;
+    margin-top: 10px;   
+}
+
+p {
+    text-align: center;
+}
